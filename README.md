@@ -4,7 +4,7 @@ An esp32 microcontroller based system for collecting data from sensors which int
 This data is sent through the network to a Flask API for interacting with a database.  
 The API/database stores the current sensor reading, alongside a deviceID, and the time at which the reading was taken.  
 Database and API tested with, and functions on, a Raspberry Pi 4.  
-Current naming conventions, and personal use, is based on a simple photoresistor, but will work with any 5v resistance based analog sensor.  
+Current naming conventions, and personal use, is based on a simple photoresistor, but will work with any 3.3v resistance based analog sensor.  
 
 <picture>
  <img alt="ESP32 in 3d printed case, next to a raspberry pi" src="database.png" width="40%">
