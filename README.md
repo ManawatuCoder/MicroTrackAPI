@@ -7,7 +7,7 @@ Database and API tested with, and functions on, a Raspberry Pi 4.
 Current naming conventions, and personal use, is based on a simple photoresistor, but will work with any 5v resistance based analog sensor.  
 
 <picture>
- <img alt="ESP32 in 3d printed case, next to a raspberry pi" src="database.png">
+ <img alt="ESP32 in 3d printed case, next to a raspberry pi" src="database.png" width="40%">
 </picture>
 
 
