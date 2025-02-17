@@ -197,7 +197,7 @@ void setup(void) {
   //POSTs to DB upon power-on.
   httpClient.begin(postData);
   httpClient.setTimeout(5000);
-  httpCode = httpClient.POST(currentTime + "," + String(reading));
+  httpCode = httpClient.POST(currentTime + "," + String(reading) + "," + deviceID);
    if (httpCode != HTTP_CODE_OK) {
       errorSinceLastReset = true;
 	  errorCodes += "Setup DBPost: ";
